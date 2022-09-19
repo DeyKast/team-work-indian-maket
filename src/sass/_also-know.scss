@@ -1,0 +1,66 @@
+.section-six-text-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px;
+    padding-bottom: 40px;
+}
+
+.section-six-title {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 0.75;
+    letter-spacing: 0.06em;
+
+    text-transform: uppercase;
+    color: var(--text-color-section-six);
+
+    margin-bottom: 225px;
+}
+
+.section-six-text {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.47;
+    letter-spacing: -0.01em;
+
+    color: var(--text-color-section-six);
+
+    margin-bottom: 105px;
+}
+
+.section-six-accent-text {
+    color: var(--light-clue-color);
+}
+
+.section-six-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: max-content;
+    height: auto;
+
+    color: var(--orange-buttons-color);
+    text-transform: uppercase;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: 0.1em;
+
+    border: none;
+    background-color: var(--white-color);
+
+    transition: color 500ms linear, background-color 500ms linear,
+        padding 500ms linear;
+}
+
+.section-six-button:hover {
+    color: var(--white-color);
+    background-color: var(--orange-buttons-color);
+
+    padding: 10px 30px;
+
+    cursor: pointer;
+}
