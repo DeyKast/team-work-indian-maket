@@ -22,3 +22,47 @@
     </button>
   </div>
 </header>
+<!-- Backdrop -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <div class="modal-btn-close-container">
+      <button class="modal-btn-close" type="button" data-modal-close>X</button>
+    </div>
+
+    <form class="modal__form">
+      <p class="modal__text">Contact <span class="modal__accent">US</span></p>
+      <p class="modal__slogan">We are here to help.</p>
+      <div class="form-container">
+        <label class="modal__label" for="name"></label>
+        <input
+          class="modal__input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Name"
+          required
+        />
+        <label class="modal__label" for="tel"></label>
+        <input
+          class="modal__input"
+          type="tel"
+          name="tel"
+          id="tel"
+          placeholder="Telephone"
+          required
+        />
+        <label class="modal__label" for="mail"></label>
+        <input
+          class="modal__input"
+          type="email"
+          name="mail"
+          id="mail"
+          placeholder="Email"
+        />
+      </div>
+
+      <button class="modal__send-btn">Send now</button>
+    </form>
+  </div>
+</div>
+<script src="./js/modal.js"></script>
