@@ -1,0 +1,128 @@
+/* ===== Hero ===== */
+
+.section.hero {
+  position: relative;
+
+  max-width: 1440px;
+  padding-top: 240px;
+  padding-bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+
+  overflow: hidden;
+
+  background-color: var(--light-yellow);
+}
+
+.hero__container {
+  display: flex;
+  gap: 80px;
+
+  padding-left: 180px;
+  padding-right: 130px;
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+
+  margin-bottom: 25px;
+  max-width: 480px;
+
+  font-weight: var(--basic-font-weight);
+  font-size: 48px;
+  line-height: 1.29;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: var(--dark-blue);
+}
+
+.hero__label {
+  font-weight: var(--basic-font-weight);
+  font-size: 24px;
+  line-height: 1.29;
+  letter-spacing: -0.035em;
+  text-transform: none;
+
+  color: var(--accent-color);
+}
+
+.hero__text {
+  max-width: 480px;
+  margin-bottom: 40px;
+
+  font-size: 24px;
+  line-height: 2.04;
+
+  color: var(--dark-blue);
+}
+
+.hero__btn {
+  padding: 10px 30px;
+
+  font-weight: var(--basic-font-weight);
+  font-size: 16px;
+  line-height: 1.67;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  background-color: var(--orange-buttons-color);
+  color: var(--white-color);
+}
+
+.hero__btn--color {
+  background-color: var(--light-yellow);
+  color: var(--orange-buttons-color);
+}
+
+.matrix-rectangle-box {
+  position: absolute;
+  top: 0;
+  right: -150px;
+
+  width: 807.71px;
+  height: 544.93px;
+
+  border-radius: 312.159px;
+  transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+  background-color: var(--light-blue);
+}
+
+.matrix-rectangle-img {
+  position: absolute;
+  top: 120px;
+  right: -150px;
+
+  width: 807.71px;
+  height: 544.93px;
+
+  overflow: hidden;
+
+  background-color: var(--light-pink);
+  border-radius: 312.159px;
+  transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+}
+
+.rectangle-img {
+  position: absolute;
+  top: -6%;
+  left: 1%;
+
+  width: 1000px;
+  height: 700px;
+  background-image: linear-gradient(
+      213.71deg,
+      var(--light-pink) 11.23%,
+      rgba(255, 255, 255, 0) 48.4%
+    ),
+    url('../images/hero-img.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  transform: rotateZ(30deg);
+}
+
+/* ===== Hero ===== */
